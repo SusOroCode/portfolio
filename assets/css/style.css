@@ -1,0 +1,59 @@
+/*General Styles*/
+:root {
+    --background-color:  
+    --font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d3dae4;
+}
+
+/* HEADER STYLES*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    font-family: var(--font-family);
+    background-color: #737a7c;
+}
+
+header h1 {
+    display: inline-block;
+    background-color:#d3dae4;
+    margin-left: -50px;
+    padding: 5px 20px 5px 50px;
+    font-size: 50px;
+    font-family: var(--font-family);
+}
+
+nav ul {
+    display: flex;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    list-style-type: none;
+}
+
+nav ul a {
+    padding: 25px;
+    display: block;
+    font-size: 20px;
+    color: white;
+}
+
+/*HERO IMAGE STYLES*/
+
+.hero {
+    display: flex;
+    height: 400px;
+    background-image: 
+
+}
