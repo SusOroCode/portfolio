@@ -17,8 +17,9 @@ body {
 
 /* HEADER STYLES*/
 
-header {
+#primary-header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 10px 50px;
@@ -26,7 +27,7 @@ header {
     background-color: #737a7c;
 }
 
-header h1 {
+#primary-header h1 {
     display: inline-block;
     background-color:#d3dae4;
     margin-left: -50px;
@@ -34,9 +35,11 @@ header h1 {
     font-size: 50px;
     font-family: var(--font-family);
 }
+/*Header Navigation Styles*/
 
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     text-decoration: underline;
     text-underline-offset: 5px;
     list-style-type: none;
@@ -44,8 +47,9 @@ nav ul {
 
 nav ul a {
     padding: 25px;
-    display: block;
-    font-size: 20px;
+   /* display: block;*/
+    display: flex;
+    font-size: 30px;
     color: white;
 }
 
@@ -53,7 +57,210 @@ nav ul a {
 
 .hero {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items:flex-end;
+    flex: 1 1 100%;
     height: 400px;
-    background-image: 
+    background-image: url("../images/pexels-kaboompics-com-6337.jpg");
+    background-size: cover;
+    background-position: center;
 
+}
+
+.hero h2 {
+    padding: 20px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    background-color:aliceblue;
+    font-size: 30px;
+}
+
+
+/*Main Section Styles*/
+
+main section {
+    display: flex;
+    margin: 10px;
+}
+
+main section header {
+    flex-basis: 25%;
+    border-right: solid black 3px; 
+    text-align: right;
+    padding: 30px;
+    margin: 30px 0px;
+    font-size: 30px;
+}
+
+main section div {
+    flex-basis: 75%;
+    padding: 30px;
+    font-size: 25px;
+    line-height: 40px;
+    
+}
+
+#work-projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#work-projects a {
+    flex-basis: 50%;
+    height: 250px;
+
+}
+
+#work-projects a:first-child {
+    flex-basis: 100%;
+    height: 400px;
+}
+
+#github {
+    background-image: url("")
+}
+
+
+/*
+main section {
+    display: flex;
+}
+
+main section header {
+    flex: 0 0 25%;
+}
+
+main section  div {
+    flex: 0 0 75%;
+}
+
+/*ABOUT ME*/
+/*
+#about-me {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    background-color: bisque;
+}
+
+/* #about-me div {
+    
+    flex-basis: 25%;
+    width: 500px;
+    height: 500px;
+    background-color:blue; 
+    align-items: center;
+    margin: 20px 20px;
+    width: 100%;
+    padding: 10px 10px;
+} */
+/*
+#about-me > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about-me div p {
+    flex: 0 0 60%;
+}
+
+#about-me div div {
+    flex: 0 0 40%;
+}
+
+#about-me div div img {
+    width: 100%;
+}
+
+#about-me div h2 {
+    font-size: 40px;
+    text-align: right;
+    padding-left: 40px;
+}
+
+#about-me div p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+
+/*.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 40px;
+}
+*/
+
+/* About Me Section*/
+/*
+#about-me {
+    display: flex;
+    flex-wrap: wrap;
+    /*flex: */
+   /* padding: 50px;
+    align-content: center;
+    justify-content: space-evenly;
+
+    /*margin-top: 20px;*/
+/*
+}
+
+
+#about-me div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    width: 70%;
+    /*justify-content: space-evenly;*/
+ /*   
+}
+
+/*
+.about-one {
+    flex: 1 1 33%%;
+    padding: 0px 20px 90px 10px;
+    font-size: 30px;
+    text-align: right;
+    border-right: 3px solid;
+}
+
+.about-two {
+    flex: 1 1 33%%;
+    padding-left: 50px;
+    font-size: 20px;
+    text-align: top;
+}
+
+.about-three section {
+   /* max-width: 20%;
+    max-height: 20%;*/
+/*    flex: 1 1 33%;
+} 
+*/
+
+/*
+img {
+    max-width: 50%;
+    max-height: 50%;
+    opacity: 80%;
+}
+
+p {
+    padding: 0px 30px 10px 30px;
+}
+/*
+/*WORK*/
+/*
+@media screen and (max-width: 1000px) {
+    #about-me div p {
+    flex: 0 0 100%;
+    }
+    
+    #about-me div div {
+        flex: 0 0 100%;
+    }
 }
