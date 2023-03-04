@@ -81,16 +81,21 @@ nav ul a {
 
 main section {
     display: flex;
-    margin: 10px;
+    margin: 5px;
 }
 
 main section header {
     flex-basis: 25%;
-    border-right: solid black 3px; 
+    border-right: solid aliceblue 5px; 
+    color: black;
     text-align: right;
     padding: 30px;
     margin: 30px 0px;
     font-size: 30px;
+}
+
+main section p {
+    padding: 20px 20px;
 }
 
 main section div {
@@ -103,7 +108,11 @@ main section div {
 #work-projects {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
+    /*margin: 10px;*/
+}
+
+#work-projects:hover {
+    
 }
 
 #work-projects a {
@@ -114,59 +123,63 @@ main section div {
 
 }
 
+a:hover {
+    color:aqua;
+    opacity: 50%;
+}
+
+
 #work-projects a:first-child {
     flex-basis: 100%;
     height: 400px;
     
 }
 
+
 #github {
     background-image: url("../images/pexels-evie-shaffer-2748756.jpg");
     background-size: cover;
     background-position: top;
-    border-radius: 10px;
-    border: solid #737a7c 3px;
+    border: solid aliceblue 3px;
 }
+
 
 #hori {
     background-image: url("../images/pexels-evie-shaffer-2395244.jpg");
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
-    border: solid #737a7c 3px;
+    border: solid aliceblue 3px;
 }
 
 #mini {
     background-image: url("../images/pexels-evie-shaffer-3772004.jpg");
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
-    border: solid #737a7c 3px;
+    border: solid aliceblue 3px;
 }
 
 #cheat {
     background-image: url("../images/pexels-ylanite-koppens-796602.jpg");
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
-    border: solid #737a7c 3px;
+    border: solid aliceblue 3px;
 }
 
 #port {
     background-image: url("../images/pexels-ylanite-koppens-796620.jpg");
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
-    border: solid #737a7c 3px;
+    border: solid aliceblue 3px;
 }
 
 div a h3 {
         background-color: aliceblue;
         color: black;
-        font-size: 25px;
+        font-size: 30px;
         margin: 10px 10px;
         padding: 16px 32px;
-        text-align: left;
+        position: relative;
+        left: -40px;
 
 }
 
