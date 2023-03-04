@@ -97,30 +97,82 @@ main section div {
     flex-basis: 75%;
     padding: 30px;
     font-size: 25px;
-    line-height: 40px;
-    
+    line-height: 40px;  
 }
 
 #work-projects {
     display: flex;
     flex-wrap: wrap;
+    margin: 10px;
 }
 
 #work-projects a {
     flex-basis: 50%;
     height: 250px;
+    margin: 20px;
+    text-decoration: none;
 
 }
 
 #work-projects a:first-child {
     flex-basis: 100%;
     height: 400px;
+    
 }
 
 #github {
-    background-image: url("")
+    background-image: url("../images/pexels-evie-shaffer-2748756.jpg");
+    background-size: cover;
+    background-position: top;
+    border-radius: 10px;
+    border: solid #737a7c 3px;
 }
 
+#hori {
+    background-image: url("../images/pexels-evie-shaffer-2395244.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: solid #737a7c 3px;
+}
+
+#mini {
+    background-image: url("../images/pexels-evie-shaffer-3772004.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: solid #737a7c 3px;
+}
+
+#cheat {
+    background-image: url("../images/pexels-ylanite-koppens-796602.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: solid #737a7c 3px;
+}
+
+#port {
+    background-image: url("../images/pexels-ylanite-koppens-796620.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: solid #737a7c 3px;
+}
+
+div a h3 {
+        background-color: aliceblue;
+        color: black;
+        font-size: 25px;
+        margin: 10px 10px;
+        padding: 16px 32px;
+        text-align: left;
+
+}
+
+h3 {
+    text-decoration: none;
+}
 
 /*
 main section {
