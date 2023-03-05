@@ -1,4 +1,5 @@
 /*General Styles*/
+
 :root {
     --background-color:  
     --font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -15,7 +16,7 @@ body {
     background-color: #d3dae4;
 }
 
-/* HEADER STYLES*/
+/*{HEADER STYLES*/
 
 #primary-header {
     display: flex;
@@ -35,6 +36,7 @@ body {
     font-size: 50px;
     font-family: var(--font-family);
 }
+
 /*Header Navigation Styles*/
 
 nav ul {
@@ -47,7 +49,6 @@ nav ul {
 
 nav ul a {
     padding: 25px;
-   /* display: block;*/
     display: flex;
     font-size: 30px;
     color: white;
@@ -81,6 +82,7 @@ nav ul a {
 
 main section {
     display: flex;
+    flex-wrap: wrap;
     margin: 5px;
 }
 
@@ -105,29 +107,27 @@ main section div {
     line-height: 40px;  
 }
 
+/*Flexbox Project Styling*/
+
+/* CREDITS: SlackBot ASKCBS Javier @japb1998 helped me with alignment of flexbox, <br>
+I was missing width element 100% in order to make align items and jusitfy content visible, <br>
+He also helped me figure out margin bottom*/
+
 #work-projects {
     display: flex;
     flex-wrap: wrap;
-    /*margin: 10px;*/
-}
-
-#work-projects:hover {
-    
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #work-projects a {
-    flex-basis: 50%;
+    flex-basis: 48%;
     height: 250px;
-    margin: 20px;
+    margin: 10px;
     text-decoration: none;
-
+    margin-bottom: 2%;
 }
-
-a:hover {
-    color:aqua;
-    opacity: 50%;
-}
-
 
 #work-projects a:first-child {
     flex-basis: 100%;
@@ -135,6 +135,7 @@ a:hover {
     
 }
 
+/*Project Images*/
 
 #github {
     background-image: url("../images/pexels-evie-shaffer-2748756.jpg");
@@ -143,6 +144,9 @@ a:hover {
     border: solid aliceblue 3px;
 }
 
+/*#github:hover {
+    background-color: aqua;
+}*/
 
 #hori {
     background-image: url("../images/pexels-evie-shaffer-2395244.jpg");
@@ -172,160 +176,97 @@ a:hover {
     border: solid aliceblue 3px;
 }
 
+/*Header Styles*/
+
 div a h3 {
         background-color: aliceblue;
         color: black;
         font-size: 30px;
         margin: 10px 10px;
         padding: 16px 32px;
+        display:inline-block;
         position: relative;
         left: -40px;
-
 }
 
 h3 {
     text-decoration: none;
 }
 
-/*
-main section {
-    display: flex;
-}
+/*Contact Me Styles*/
 
-main section header {
-    flex: 0 0 25%;
-}
-
-main section  div {
-    flex: 0 0 75%;
-}
-
-/*ABOUT ME*/
-/*
-#about-me {
+.contact-content {
     display: flex;
     flex-wrap: wrap;
-    align-items:center;
-    justify-content: center;
-    background-color: bisque;
+    width: 100%;
 }
 
-/* #about-me div {
+ #info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content:space-between;
     
-    flex-basis: 25%;
-    width: 500px;
-    height: 500px;
-    background-color:blue; 
-    align-items: center;
-    margin: 20px 20px;
-    width: 100%;
-    padding: 10px 10px;
-} */
+}
+
+#info a {
+    flex-basis: 20%;
+}
 /*
-#about-me > div {
+#info {
     display: flex;
     flex-wrap: wrap;
-}
-
-#about-me div p {
-    flex: 0 0 60%;
-}
-
-#about-me div div {
-    flex: 0 0 40%;
-}
-
-#about-me div div img {
     width: 100%;
-}
-
-#about-me div h2 {
-    font-size: 40px;
-    text-align: right;
-    padding-left: 40px;
-}
-
-#about-me div p {
-    font-size: 20px;
-    padding: 20px;
-}
-
-
-
-/*.about {
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    padding-top: 40px;
-}
-*/
-
-/* About Me Section*/
-/*
-#about-me {
-    display: flex;
-    flex-wrap: wrap;
-    /*flex: */
-   /* padding: 50px;
-    align-content: center;
     justify-content: space-evenly;
+}
+*/
+.contact-content #info a {
+    display: inline-block;
+    margin: 20px;
 
-    /*margin-top: 20px;*/
-/*
 }
 
+img {
+    max-width: 100%;
+    display: inline-block;
+    im
+}
 
-#about-me div {
+.overlay {
+    color: green;
+    /*margin-top: 10px;
+    margin-left: 55px;
+    width: 200px;
+    font-size: 25px ;
+    color: rgb(252, 80, 0);*/
+}
+
+/*
+#contact-info a h4 {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
-    width: 70%;
-    /*justify-content: space-evenly;*/
- /*   
-}
-
-/*
-.about-one {
-    flex: 1 1 33%%;
-    padding: 0px 20px 90px 10px;
+    display: inline-block;
+    background-color: aliceblue;
+    color: black;
     font-size: 30px;
-    text-align: right;
-    border-right: 3px solid;
+    margin: 10px 10px;
+    padding: 16px 32px;
 }
-
-.about-two {
-    flex: 1 1 33%%;
-    padding-left: 50px;
-    font-size: 20px;
-    text-align: top;
-}
-
-.about-three section {
-   /* max-width: 20%;
-    max-height: 20%;*/
-/*    flex: 1 1 33%;
-} 
 */
+/*
+#phone h4 {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+}*/
 
-/*
-img {
-    max-width: 50%;
-    max-height: 50%;
-    opacity: 80%;
-}
 
-p {
-    padding: 0px 30px 10px 30px;
-}
-/*
-/*WORK*/
-/*
+/*Footer Section Styles*/
+
 @media screen and (max-width: 1000px) {
     #about-me div p {
     flex: 0 0 100%;
-    }
-    
-    #about-me div div {
-        flex: 0 0 100%;
     }
 }
