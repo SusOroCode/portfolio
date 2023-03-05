@@ -144,9 +144,6 @@ He also helped me figure out margin bottom*/
     border: solid aliceblue 3px;
 }
 
-/*#github:hover {
-    background-color: aqua;
-}*/
 
 #hori {
     background-image: url("../images/pexels-evie-shaffer-2395244.jpg");
@@ -244,6 +241,8 @@ img {
     color: white;
     text-align: center;
 }
+
+/*Media Screen Styles*/
 
 @media screen and (max-width: 1000px) {
     #about-me div p {
