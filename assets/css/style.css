@@ -127,12 +127,21 @@ He also helped me figure out margin bottom*/
     margin: 10px;
     text-decoration: none;
     margin-bottom: 2%;
+    display: block;
 }
+
 
 #work-projects a:first-child {
     flex-basis: 100%;
     height: 400px;
+    display: block;
     
+}
+
+#work-projects a:hover {
+    opacity: 50%;
+    background-color: aqua;
+
 }
 
 /*Project Images*/
@@ -144,6 +153,9 @@ He also helped me figure out margin bottom*/
     border: solid aliceblue 3px;
 }
 
+#github:hover {
+    background-color: aqua;
+}
 
 #hori {
     background-image: url("../images/pexels-evie-shaffer-2395244.jpg");
