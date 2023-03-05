@@ -211,59 +211,39 @@ h3 {
 }
 
 #info a {
-    flex-basis: 20%;
+    flex-basis: 15%;
 }
-/*
-#info {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-    justify-content: space-evenly;
-}
-*/
+
 .contact-content #info a {
     display: inline-block;
     margin: 20px;
+    text-decoration: none;
+    text-align: center;
 
+}
+
+#info h3 {
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 10px;
 }
 
 img {
     max-width: 100%;
     display: inline-block;
-    im
 }
-
-.overlay {
-    color: green;
-    /*margin-top: 10px;
-    margin-left: 55px;
-    width: 200px;
-    font-size: 25px ;
-    color: rgb(252, 80, 0);*/
-}
-
-/*
-#contact-info a h4 {
-    display: flex;
-    flex-wrap: wrap;
-    display: inline-block;
-    background-color: aliceblue;
-    color: black;
-    font-size: 30px;
-    margin: 10px 10px;
-    padding: 16px 32px;
-}
-*/
-/*
-#phone h4 {
-    display: inline-block;
-    align-items: center;
-    justify-content: space-between;
-}*/
 
 
 /*Footer Section Styles*/
+
+.footer {
+    background-color: #737a7c;
+    padding: 20px 10px;
+    color: white;
+    text-align: center;
+}
 
 @media screen and (max-width: 1000px) {
     #about-me div p {
