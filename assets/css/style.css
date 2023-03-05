@@ -127,15 +127,12 @@ He also helped me figure out margin bottom*/
     margin: 10px;
     text-decoration: none;
     margin-bottom: 2%;
-    display: block;
 }
 
 
 #work-projects a:first-child {
     flex-basis: 100%;
     height: 400px;
-    display: block;
-    
 }
 
 #work-projects a:hover {
@@ -255,9 +252,37 @@ img {
 }
 
 /*Media Screen Styles*/
-
+/*
 @media screen and (max-width: 1000px) {
     #about-me div p {
     flex: 0 0 100%;
+    display: block;
+    }
+}*/
+/*
+@media screen and (max-width: 750px) {
+    .section-content {
+        display: block;
+    }
+}
+*/
+
+@media screen and (max-width: 978px) {
+    .section-content p {
+        font-size: 20px;
+        justify-content: center;
+
+    }   
+}
+
+@media screen and (max-width: 1425px) {
+    #work-projects a {
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width: 1710px) {
+    #info a {
+       flex-wrap: wrap;
     }
 }
