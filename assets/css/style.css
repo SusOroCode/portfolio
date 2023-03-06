@@ -1,10 +1,24 @@
-/*General Styles*/
+/*Variables*/
 
 :root {
-    --background-color:  
-    --font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   /*I tried to find good variables for the code elements I used, 
+   for example padding, but I had so many different padding styles 
+   that did not apply*/
+
 
 }
+
+/*I did not set a font family because I like the defaut font a lot,
+otherwise I could have added a variable for the font-family and added it, 
+but I am really happy with the defaut font, css I didn't add but know about:
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,
+:root {
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    Example: h2 {
+        font-family: var(--font-family);*/
+
+
+/*General Styles*/
 
 * {
     box-sizing: border-box;
@@ -16,7 +30,7 @@ body {
     background-color: #d3dae4;
 }
 
-/*{HEADER STYLES*/
+/*HEADER STYLES*/
 
 #primary-header {
     display: flex;
@@ -24,7 +38,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 50px;
-    font-family: var(--font-family);
     background-color: #737a7c;
 }
 
@@ -34,7 +47,6 @@ body {
     margin-left: -50px;
     padding: 5px 20px 5px 50px;
     font-size: 50px;
-    font-family: var(--font-family);
 }
 
 /*Header Navigation Styles*/
@@ -73,7 +85,7 @@ nav ul a {
     padding: 20px;
     margin-right: 100px;
     margin-bottom: 20px;
-    background-color:aliceblue;
+    background-color: aliceblue;
     font-size: 30px;
 }
 
@@ -109,7 +121,7 @@ main section div {
 
 /*Flexbox Project Styling*/
 
-/* CREDITS: SlackBot ASKCBS Javier @japb1998 helped me with alignment of flexbox, <br>
+/* CREDITS: SlackBot AskBCS Javier @japb1998 helped me with alignment of flexbox, <br>
 I was missing width element 100% in order to make align items and jusitfy content visible, <br>
 He also helped me figure out margin bottom*/
 
@@ -127,6 +139,7 @@ He also helped me figure out margin bottom*/
     margin: 10px;
     text-decoration: none;
     margin-bottom: 2%;
+    opacity: 70%;
 }
 
 
@@ -136,22 +149,20 @@ He also helped me figure out margin bottom*/
 }
 
 #work-projects a:hover {
-    opacity: 50%;
-    background-color: aqua;
-
+    opacity: 100%;
 }
 
 /*Project Images*/
+
+/* I wasn't sure how to add the code together, when I tried, 
+the images changed in all containers to only one image, so I 
+kept the code seperate*/
 
 #github {
     background-image: url("../images/pexels-evie-shaffer-2748756.jpg");
     background-size: cover;
     background-position: top;
     border: solid aliceblue 3px;
-}
-
-#github:hover {
-    background-color: aqua;
 }
 
 #hori {

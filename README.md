@@ -15,11 +15,13 @@ If your README is long, add a table of contents to make it easy for users to fin
 ## Portfolio Requirements
 
 - A fully displayed portfolio website
-- Developers Name, Contact Info, Work and links to work-projects, Image Of Developer
-- Navigation Links pointing to corresponding sections on website
+- Developers name, contact info, work and links to work-projects, image of developer
+- Navigation links pointing to corresponding sections on website
 - First work display to be a larger sized image
 - By clicking the image the user is taken to deployed application
-- A responsive layout is apllied to different screen sizes
+- A responsive layout is applied to different screen sizes
+
+CREDIT NOTES: SlackBot AskBCS Javier @japb1998 helped me with alignment of flexbox elements: alignment of 4 lower containers with bigger upper container,margin between all containers and positioning.
 
 ## Screenshot Video
 
