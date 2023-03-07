@@ -263,20 +263,6 @@ img {
 }
 
 /*Media Screen Styles*/
-/*
-@media screen and (max-width: 1000px) {
-    #about-me div p {
-    flex: 0 0 100%;
-    display: block;
-    }
-}*/
-/*
-@media screen and (max-width: 750px) {
-    .section-content {
-        display: block;
-    }
-}
-*/
 
 @media screen and (max-width: 978px) {
     .section-content p {
@@ -284,6 +270,10 @@ img {
         justify-content: center;
 
     }   
+
+    main section {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 1425px) {
@@ -295,5 +285,12 @@ img {
 @media screen and (max-width: 1710px) {
     #info a {
        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1235px) {
+    #contact-me {
+        display: block;
+
     }
 }
